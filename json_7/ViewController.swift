@@ -52,7 +52,7 @@ var petitions = [[String: String]]()
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    
+    //
     func parse(json: JSON) {
         for result in json["results"].arrayValue {
             let title = result["title"].stringValue
